@@ -29,7 +29,7 @@ The Student Grade Generator is a simple JavaScript application that prompts the 
 
 ## Code
 
-The main functionality is provided by the `getGrade` function in `script.js`. 
+The main functionality is provided by the `getGrade` function in `index1.js`. 
 
 
 
@@ -58,7 +58,7 @@ The Speed Detector is a simple JavaScript program that evaluates the speed of a 
 
 ## Code
 
-The main functionality is provided by the `speedDetector` function in `script.js`. 
+The main functionality is provided by the `speedDetector` function in `index1.js`. 
 # index3.js (Net Salary Calculator)
 
 ## Description
@@ -86,6 +86,6 @@ The Net Salary Calculator is a JavaScript application designed to compute an ind
 
 ## Code
 
-The main functionality is provided by the `calculateNetSalary` function in `script.js`. 
+The main functionality is provided by the `calculateNetSalary` function in `index1.js`. 
 
 
