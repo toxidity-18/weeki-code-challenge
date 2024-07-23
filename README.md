@@ -1,15 +1,91 @@
-Challenge 1: Student Grade Generator (Toy Problem)(index1.js)
+# index1.js(student gradegenerator)
 
-Write a function that prompts the user to input student marks. The input should be between 0 and 100. The output should correspond the correct grade, as shown below: 
+## Description
 
-        A > 79, B - 60 to 79, C -  59 to 49, D - 40 to 49, E - less 40.
-Challenge 2: Speed Detector (Toy Problem)(index2.js)
+The Student Grade Generator is a simple JavaScript application that prompts the user to input student marks and returns the corresponding grade based on the given criteria. The application determines the grade according to the following scale:
 
-Write a program that takes the speed of a car as input e.g 80. If the speed is less than 70, it should print “Ok”. Otherwise, for every 5 km/s above the speed limit (70), it should give the driver one demerit point and print the total number of demerit points.
+- **A**: Marks > 79
+- **B**: Marks between 60 and 79 (inclusive)
+- **C**: Marks between 50 and 59 (inclusive)
+- **D**: Marks between 40 and 49 (inclusive)
+- **E**: Marks less than 40
 
-   > For example, if the speed is 80, it should print: “Points: 2”. If the driver gets more than 12 points, the function should print: “License suspended”.
-Challenge 3: Net Salary Calculator (Toy Problem)(index3.js)
+## Features
 
-Write a program whose major task is to calculate an individual’s Net Salary by getting the inputs of basic salary and benefits. Calculate the payee (i.e. Tax), NHIF Deductions, NSSF Deductions, gross salary, and net salary. 
+- Prompts the user to enter student marks.
+- Validates input to ensure it is within the range of 0 to 100.
+- Displays the corresponding grade based on the input.
 
-NB: Use KRA, NHIF, and NSSF values provided in the link below.
+## Requirements
+
+- A web browser that supports JavaScript (e.g., Chrome, Firefox, Safari).
+
+## Usage
+
+1. Open the `index.html` file in your web browser.
+2. The application will prompt you to enter student marks.
+3. Input a number between 0 and 100 and press "OK".
+4. The grade corresponding to the input marks will be displayed in the console.
+
+## Code
+
+The main functionality is provided by the `getGrade` function in `script.js`. 
+
+
+
+# index2.js (Speed Detector)
+
+## Description
+
+The Speed Detector is a simple JavaScript program that evaluates the speed of a car and calculates demerit points based on the speed limit. If the car's speed exceeds the limit, the program assigns demerit points for every 5 km/h over the speed limit of 70 km/h. If the speed is below the limit, the program simply prints "Ok".
+
+## Features
+
+- Prompts the user to input the speed of the car.
+- Checks if the speed is below the speed limit and prints "Ok".
+- Calculates and displays the total number of demerit points if the speed exceeds the limit.
+
+## Requirements
+
+- A web browser that supports JavaScript (e.g., Chrome, Firefox, Safari).
+
+## Usage
+
+1. Open the `index.html` file in your web browser.
+2. The application will prompt you to enter the speed of the car in km/h.
+3. Input the speed and press "OK".
+4. The program will display either "Ok" if the speed is below 70 km/h or the total number of demerit points if the speed exceeds 70 km/h.
+
+## Code
+
+The main functionality is provided by the `speedDetector` function in `script.js`. 
+# index3.js (Net Salary Calculator)
+
+## Description
+
+The Net Salary Calculator is a JavaScript application designed to compute an individual's net salary based on their basic salary and benefits. The program calculates various deductions including payee (tax), NHIF (National Hospital Insurance Fund) deductions, and NSSF (National Social Security Fund) contributions. It then computes the gross salary, total deductions, and final net salary.
+
+## Features
+
+- Prompts the user to input basic salary and benefits.
+- Calculates the payee (tax) based on a predefined threshold and rate.
+- Applies fixed NHIF and NSSF deductions.
+- Computes the gross salary, total deductions, and net salary.
+- Displays the results in the console.
+
+## Requirements
+
+- A web browser that supports JavaScript (e.g., Chrome, Firefox, Safari).
+
+## Usage
+
+1. Open the `index.html` file in your web browser.
+2. The application will prompt you to enter the basic salary and total benefits in KES (Kenyan Shillings).
+3. Input the values and press "OK".
+4. The program will calculate and display the gross salary, payee (tax), NHIF deduction, NSSF deduction, and net salary in the console.
+
+## Code
+
+The main functionality is provided by the `calculateNetSalary` function in `script.js`. 
+
+
